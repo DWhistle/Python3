@@ -1,0 +1,61 @@
+nohup: help: No such file or directory
+[?1049h[1;24r(B[m[4l[?7h[?1l>Traceback (most recent call last):
+  File "/Users/bturcott/.brew/Cellar/python/3.7.2_2/Frameworks/Python.framework/Versions/3.7/lib/python3.7/curses/__init__.py", line 78, in wrapper
+    cbreak()
+_curses.error: cbreak() returned ERR
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "script.py", line 22, in <module>
+    curses.wrapper(main)
+  File "/Users/bturcott/.brew/Cellar/python/3.7.2_2/Frameworks/Python.framework/Versions/3.7/lib/python3.7/curses/__init__.py", line 100, in wrapper
+    nocbreak()
+_curses.error: nocbreak() returned ERR
+[?1049h[1;24r(B[m[4l[?7h[?1l>Traceback (most recent call last):
+  File "/Users/bturcott/.brew/Cellar/python/3.7.2_2/Frameworks/Python.framework/Versions/3.7/lib/python3.7/curses/__init__.py", line 78, in wrapper
+    cbreak()
+_curses.error: cbreak() returned ERR
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "script.py", line 22, in <module>
+    curses.wrapper(main)
+  File "/Users/bturcott/.brew/Cellar/python/3.7.2_2/Frameworks/Python.framework/Versions/3.7/lib/python3.7/curses/__init__.py", line 100, in wrapper
+    nocbreak()
+_curses.error: nocbreak() returned ERR
+[?1049h[1;24r(B[m[4l[?7h[?1l>Traceback (most recent call last):
+  File "/Users/bturcott/.brew/Cellar/python/3.7.2_2/Frameworks/Python.framework/Versions/3.7/lib/python3.7/curses/__init__.py", line 78, in wrapper
+    cbreak()
+_curses.error: cbreak() returned ERR
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "script.py", line 22, in <module>
+    curses.wrapper(main)
+  File "/Users/bturcott/.brew/Cellar/python/3.7.2_2/Frameworks/Python.framework/Versions/3.7/lib/python3.7/curses/__init__.py", line 100, in wrapper
+    nocbreak()
+_curses.error: nocbreak() returned ERR
+[?1049h[1;24r(B[m[4l[?7h[?1l>Traceback (most recent call last):
+  File "/Users/bturcott/.brew/Cellar/python/3.7.2_2/Frameworks/Python.framework/Versions/3.7/lib/python3.7/curses/__init__.py", line 78, in wrapper
+    cbreak()
+_curses.error: cbreak() returned ERR
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "script.py", line 22, in <module>
+    curses.wrapper(main)
+  File "/Users/bturcott/.brew/Cellar/python/3.7.2_2/Frameworks/Python.framework/Versions/3.7/lib/python3.7/curses/__init__.py", line 100, in wrapper
+    nocbreak()
+_curses.error: nocbreak() returned ERR
+Traceback (most recent call last):
+  File "script.py", line 56, in <module>
+    k = getkey()
+  File "script.py", line 32, in getkey
+    tty.setcbreak(sys.stdin.fileno())
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/tty.py", line 36, in setcbreak
+    tcsetattr(fd, when, mode)
+termios.error: (4, 'Interrupted system call')
