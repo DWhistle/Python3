@@ -11,4 +11,3 @@ class ManagedFile:
 with ManagedFile('with_statement.py') as f:
 	print(f.readline(), end='')
 
-###42 page
