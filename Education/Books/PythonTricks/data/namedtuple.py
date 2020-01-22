@@ -31,3 +31,16 @@ print('charge' in ElectricCar._fields)
 print(dict(carm._asdict()))
 print(carm._replace(engine = 100))
 print(ElectricCar._make([222, 222, 232]))
+
+
+
+#NamedTuple (better namedtuple)
+from typing import NamedTuple
+class Car(NamedTuple):
+	color: str
+	hp: int
+	wd4: bool
+c = Car('red', 23, True)
+print(c)
+print(c.color)
+c.driver = 'Ivan'
